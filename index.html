@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <meta charset="utf-8">
+        <title>Leisure Archives</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 class="heading">Leisure Archives </h1>
+            <h2 class="heading"> a celebration of inter/trans/generational African & Afrodescendant leisure.</h2>
+            <p class="heading"> The Leisure Archives Questionnaire emerged from my will to witness, gather & celebrate African and Afrodescendant people resting. </p>
+            <div>
+            <form>
+                <fieldset>
+                    <label for="name">Name</label> 
+                    <input type="name" id="name" required>
+                    <label for="pronouns">Pronouns</label> 
+                    <input type="pronouns" id="pronouns" required>
+                    <label for="lineage">Lineage</label> 
+                    <input type="lineage" id="lineage" required>
+                    <label for="datetime">Date & Time</label> 
+                    <input type="datetime-local" id="date-time" required>
+                    <label for="location">Location</label> 
+                    <input type="location" id="location" required>
+                    <label for="email">Email</label> 
+                    <input type="email" id="email" required>
+                </fieldset>
+                <fieldset>
+                    <label for="leisure">How would you define leisure?</label>
+                    <textarea id="leisure" cols="30" rows="5">Is it a poem? An array of floating thoughts? A pause?</textarea>
+                    <label for="engagement">How did you engage in leisure today?</label>
+                    <textarea id="engagement" cols="30" rows="5">Did you sing? Did you nap? Did you dance?</textarea>
+                    <label for="relationship">What is your relationship with/to leisure?</label>
+                    <textarea id="relationship" cols="30" rows="5">How are leisure & you walzting?</textarea>
+                    <label for="archives">Have you ever archived yourself in moments of leisure? Why?</label>
+                    <textarea id="archives" cols="30" rows="5">Was it for fun? For documentation purpose? For reasons that evade your current self's understanding?</textarea>
+                    <label for="familialarchives">Have you ever witnessed familial archives depicting moments of leisure?</label>
+                    <textarea id="familialarchives" cols="30" rows="5">Do you have pictures of your mother napping? Do you have videos of your cousins basking in the sun?</textarea>
+                    <label for="archiveupload">Si le coeur vous en dit, please upload images of yourself and/or your loved ones leisuring.Who are the people in the uploaded archives? Please describe the iteration(s) of leisure they’re engaging in as well as their name(s), location(s), and the date(s) at which these archives were created.</label>
+                    <input type="submit" value="Upload Familial and/or Personal Archives">
+                    <textarea id="archiveupload" cols="30" rows="5">Who are these lovely beings?</textarea>
+                </fieldset>
+                <fieldset>
+                    <p>Kouman ou ye?</p>
+                    <label for="calm"><input type="checkbox" id="calm" class="inline" value="Calm">Calm</label> 
+                    <label for="happy"><input type="checkbox" id="happy" class="inline" value="Happy">Happy</label> 
+                    <label for="sad"><input type="checkbox" id="sad" class="inline" value="Sad">Sad</label> 
+                    <label for="other"><input type="checkbox" id="other" class="inline" value="Other">Other</label> 
+                    <label for="erotic-select">Is unearthing personal and/or familial archives engaging your <a href="https://stilluntitledproject.files.wordpress.com/2014/11/audre-lorde-sister-outsider-the-uses-of-the-erotic-1978.pdf">"Erotic Yes"?</a></label>
+                <select name="erotic" id="erotic-select">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="I Do Not Know">I Do Not Know</option>
+                </select>
+                <label for="elaboration"> Optional Elaboration</label>
+                <textarea id="elaboration" cols="30" rows="5"></textarea>
+                </fieldset>
+                <input type="submit" value="Submit Questionaire">
+            </form>
+        </div>
+    </body>
+</html>
